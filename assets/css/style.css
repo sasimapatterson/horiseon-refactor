@@ -114,25 +114,18 @@ figure img {
     margin: 10px auto;
     max-width: 150px;
 }
+
+/* combine all classes in article as they are using the same style */
+article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff; 
+}
+
 /*
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}*/
-
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -158,7 +151,7 @@ figure img {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
+}*/
 
 .search-engine-optimization img {
     max-height: 200px;
