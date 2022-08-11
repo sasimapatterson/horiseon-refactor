@@ -25,7 +25,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-header nav {
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -33,14 +33,22 @@ header nav {
     font-size: 20px;
 }
 
-header nav ul {
-    list-style-type: none;
+nav a {
+    display: inline-block;
+    margin-left: 25px;
+   /* list-style-type: none; */
 }
 
+nav a:hover {
+    color: pink;
+    text-decoration: underline;
+}
+/*
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+*/
 
 a {
     color: #ffffff;
@@ -89,7 +97,13 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+/* removed .benefit-lead, .benefit-brand, .benefit-cost class and combine them in figure */
+figure {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
 
+/* This section will be removed
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -104,10 +118,16 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
+*/
+/* 
+figure h3 {
+   margin-bottom: 10px;
+    text-align: center; 
+}
 
+/* This is to be removed
 .benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
+    
 }
 
 .benefit-brand h3 {
@@ -119,6 +139,7 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
+*/
 
 .benefit-lead img {
     display: block;
