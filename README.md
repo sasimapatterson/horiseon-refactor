@@ -1,4 +1,5 @@
 # horiseon-refactor-project
+Refactor code to ensure web accessibility. 
 
 ## Table of Contents
 1. [Description](#description)
