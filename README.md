@@ -3,6 +3,8 @@
 ## Table of Contents
 1. [Description](#description)
 2. [Visuals](#visuals)
+3. [Website link](#website-link)
+
 
 ## Description
  
@@ -23,4 +25,4 @@ Example of css selectors and properties
 ![css selectors and properties](./assets/images/css-selectors.png)
 
 ## Website link
-[Horiseon](https://sasimapatterson.github.io/horiseon-refactor-project/)
+### [Horiseon](https://sasimapatterson.github.io/horiseon-refactor-project/)
