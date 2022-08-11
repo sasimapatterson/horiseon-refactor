@@ -97,50 +97,24 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/* removed .benefit-lead, .benefit-brand, .benefit-cost class and combine them in figure */
+/* removed .benefit-lead, .benefit-brand, .benefit-cost class and combined them in figure */
 figure {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* This section will be removed
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-*/
-/* 
+/* removed .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 class and combined them in figure h3 */
 figure h3 {
    margin-bottom: 10px;
     text-align: center; 
 }
-
-/* This is to be removed
-.benefit-lead h3 {
-    
+/* removed .benefit-lead img, .benefit-brand img, .benefit-cost img class and combined them in figure img */
+figure img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-*/
-
+/*
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -157,7 +131,7 @@ figure h3 {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
+}*/
 
 .search-engine-optimization {
     margin-bottom: 20px;
